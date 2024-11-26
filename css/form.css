@@ -1,0 +1,14 @@
+label, input {
+
+    display: block;
+    margin-bottom: 7px;
+}
+div {
+    margin:auto;
+    border:1px solid black;
+    width: 30%;
+}
+
+h1 {
+    text-align: center;
+}

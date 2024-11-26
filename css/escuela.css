@@ -1,0 +1,76 @@
+.header {
+    background-color: green;
+    color: #f0ecc9;
+    text-align: right;
+    font-weight: bolder;
+    padding: 5px;
+    font-family: 'Arial', sans-serif;
+    font-size: 32px
+}
+
+.menu {
+    display: inline-block;
+    background-color: #3a795e;
+    width: 20%;
+    border-radius: 0% 10% 10% 0%;
+    font-family: 'Arial', sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.titulo-menu {
+
+    margin-bottom: 15px;
+    margin-left: 10px;
+    color: #ffffff;
+    padding-top: 15px;
+    text-decoration: underline;
+
+}
+
+.opcion-menu {
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+}
+
+.opcion-menu:hover {
+    background-color: #058926;
+    cursor: pointer;
+    border-left: 3px solid #6bb88a;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.fondo {
+    /*background-image: url(../img/pizarra.png);*/
+    padding: 0;
+    margin: 10px;
+    background-color: rgb(135, 199, 135);
+    background-size: cover;
+    background-position: center;
+}
+
+.chart {
+
+    width: 50%;
+    max-width: 700px;
+
+}
+
+/* Cuando el dispositivo de salida sea una impresora */
+@media print {
+
+    /* Se aplicará la siguiente regla CSS */
+    button,
+    [type="button"],
+    [type="submit"],
+    [type="reset"] {
+      display: none;
+    }
+  
+  }
